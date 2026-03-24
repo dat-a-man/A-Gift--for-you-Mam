@@ -1,0 +1,12 @@
+Instructions:
+
+Add new link  on the navbar (blogs)
+on this page we would group the posts by dates, so under each group add clickable items, you can just put the name of the blog and brief description that's fine
+
+
+i need to fetch all the posts tags from supabase, should I have a table saving the. tags for my posts? Because right now my posts have the tags saved as an array field on the posts. Should I extract them from the posts? Also can a type on supabase be an array of relations? like the tags an array of items from the tags table if this is what we are going with?
+
+We need a new route on the navbar tags, this page will display a list or all tags available on supabase. The tags can be a list flexbox with wrappping style as space gets smaller. When a tag is clicked it will load all. the posts with that tag. Also please add some loading skeletons during loading. You can also add this loading skeleton on the home page when the posts are loading and also on the details page when loading
+
+
+Configure tailwindcss theme options, for light, dark, and system. The default should always be system. Explain all the steps to me including file changes. Note color contrast please

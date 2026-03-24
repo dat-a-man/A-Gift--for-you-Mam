@@ -1,0 +1,16 @@
+Make the name Path in the menu bar and not Paths
+
+the buttons should take to each of their personal names where info about earlier path or core is there
+
+like paths to paths and core to core
+
+then categories should be either person can choose path or he can chose coreV (this is by design no need to show it in the menubar)
+
+tags work wonderfully
+
+if we wanna keep categories think a different name for PAth and Core (like directive_pages) or something like that
+
+
+make sure sanity is 100% integrated 
+rest all looks good , if done tell me how to deploy,
+

@@ -1,0 +1,10 @@
+# Design Language
+- Primary Color: Emerald Green (Tailwind colors.emerald)
+- Aesthetic: Minimalist, Technical Blog, "ssp.sh" style.
+- Typography: Inter for body, JetBrains Mono for code.
+- Spacing: Generous negative space, max-width 3xl for content.
+- Components: Subtle borders instead of shadows. No "salesy" or "flashy" gradients.
+- Headings: Use emerald-900 for strong contrast.
+- Links: emerald-600 with underline-offset-4.
+- Code blocks: bg-gray-50 (light) / bg-gray-900 (dark), border-gray-100 / border-gray-800.
+- Edges: rounded-md or sharp; avoid heavy rounding.
