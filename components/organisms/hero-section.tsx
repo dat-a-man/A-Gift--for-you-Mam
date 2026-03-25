@@ -1,22 +1,27 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="relative pt-16 pb-8">
+    <section className="relative">
       <motion.div
         initial={{ opacity: 1, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="container max-w-5xl mx-auto px-6 sm:px-8 text-center"
+        className="w-full"
       >
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl font-serif">
-          Reflections
-        </h1>
-        <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          Exploring the modern world, sharing stories, and finding magic in the everyday.
-        </p>
+        <div className="relative w-full h-[320px] sm:h-[360px] md:h-[400px] overflow-hidden">
+          <Image
+            src="/images/reflections-cover-daffodils-living.png"
+            alt="Reflections cover"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
       </motion.div>
     </section>
   );

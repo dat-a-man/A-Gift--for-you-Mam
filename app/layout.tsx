@@ -1,12 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
+import { Oswald, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { MainLayout } from "@/components/templates/main-layout";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-const fraunces = Fraunces({
+const oswald = Oswald({
   subsets: ["latin"],
   variable: "--font-serif",
 });
@@ -95,9 +94,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          inter.className,
-          inter.variable,
-          fraunces.variable,
+          oswald.variable,
           jetbrainsMono.variable,
         )}
       >

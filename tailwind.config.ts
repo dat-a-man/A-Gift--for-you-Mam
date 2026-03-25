@@ -17,8 +17,8 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["var(--font-sans)", "Inter", "system-ui", "sans-serif"],
-      serif: ["var(--font-serif)", "Fraunces", "ui-serif", "Georgia", "serif"],
+      sans: ["Verdana", "Geneva", "Tahoma", "system-ui", "sans-serif"],
+      serif: ["var(--font-serif)", "Oswald", "ui-sans-serif", "system-ui", "sans-serif"],
       mono: ["var(--font-mono)", "JetBrains Mono", "monospace"],
     },
     extend: {
